@@ -68,17 +68,17 @@ def newQuestion(url):
     qBank.append(Question(ref, question, answer))
 
 #get the thingy
-# linkBank = getquestionspertopic(url)
-# for i in range(0, len(linkBank)):
-#     newQuestion(linkBank[i])
+linkBank = getquestionspertopic(url)
+for i in range(0, len(linkBank)):
+    newQuestion(linkBank[i])
 
-# pickle_out = open('dict.pickle','wb')
-# pickle.dump(qBank, pickle_out)
-# pickle_out.close()
+pickle_out = open('dict.pickle','wb')
+pickle.dump(qBank, pickle_out)
+pickle_out.close()
 
 #load questions
-pickle_in = open('dict.pickle','rb')
-qBank = pickle.load(pickle_in)
+# pickle_in = open('dict.pickle','rb')
+# qBank = pickle.load(pickle_in)
 
 #works outputs the HTML OF THE QUESTION
 # question_html = str(0)
