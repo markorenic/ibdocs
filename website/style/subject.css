@@ -1,0 +1,4 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: minmax(0%,60%) auto 5px;
+  }
