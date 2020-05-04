@@ -16,10 +16,10 @@
         <div class="grid-item">
         <!-- Get Random Question -->
         <?php 
-        $dir  = '../physics';
+        $dir  = 'physics';
         $questions = scandir($dir);
         #print_r($questions);
-        $question = ("../physics/".$questions[random_int(0,877)]);
+        $question = ("physics/".$questions[random_int(0,877)]);
         include $question?></div>
 
         <div class="grid-item">Click the corrent answer:
