@@ -5,3 +5,6 @@ I made an open source website and webscraper. You can also be a part of it!
 Contact at support@renic.xyz
 
 The host of renic.xyz is not affiliated with the website or project, purely just offered to host the website. Thanks.
+Known Issues:
+Some questions not showing up
+Some questions include a <?> symbol especially instead of showing negative powers
