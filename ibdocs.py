@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 sys.setrecursionlimit(5000)
 qBank = []
 
-url = 'https://www.ibdocuments.com/IB%20QUESTIONBANKS/4.%20Fourth%20Edition/questionbank.ibo.org/en/teachers/00000/questionbanks/46-dp-physics/syllabus_sections/2595.html'
+url = 'https://www.ibdocuments.com/IB%20QUESTIONBANKS/4.%20Fourth%20Edition/questionbank.ibo.org/en/teachers/00000/questionbanks/46-dp-physics/syllabus_sections/2608.html'
 
 #parse url
 def parsePage(url):
@@ -106,3 +106,4 @@ def exportQuestions(qBank):
             print(qBank[counter].question.contents[i])
         
         file_.close()
+exportQuestions(qBank)

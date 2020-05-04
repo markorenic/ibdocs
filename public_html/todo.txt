@@ -3,5 +3,9 @@ Make homepage with login
 Page for physics, display one question at a time:
 +add comments
 +add percent corrently answered
+Add save question for later
+
+Add page to exchange used books
+
 
 Add page for talking (check George Hotz vid)
