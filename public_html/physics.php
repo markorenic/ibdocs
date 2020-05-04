@@ -27,10 +27,10 @@
 
         <div class="grid-item">Click the corrent answer:
             <ul>
-                <li><button onclick="clickHandler('A')" class="A">A</button></li>
-                <li><button onclick="clickHandler('B')" class="B">B</button></li>
-                <li><button onclick="clickHandler('C')" class="C">C</button></li>
-                <li><button onclick="clickHandler('D')" class="D">D</button></li>
+                <li class="popup"><button onclick="clickHandler('A')" class="A">A</button><span class="popuptext" id="myPopup">Correct!</span><span class="Wpopuptext" id="WmyPopup">Wrong, try again!</span></li>
+                <li class="popup"><button onclick="clickHandler('B')" class="B">B</button><span class="popuptext" id="myPopup">Correct!</span><span class="Wpopuptext" id="WmyPopup">Wrong, try again!</span></li>
+                <li class="popup"><button onclick="clickHandler('C')" class="C">C</button><span class="popuptext" id="myPopup">Correct!</span><span class="Wpopuptext" id="WmyPopup">Wrong, try again!</span></li>
+                <li class="popup"><button onclick="clickHandler('D')" class="D">D</button><span class="popuptext" id="myPopup">Correct!</span><span class="Wpopuptext" id="WmyPopup">Wrong, try again!</span></li>
             </ul>
             <a href="report.php?">Report Question</a><br><br>
         </div>
@@ -51,27 +51,45 @@
                         <li><a href="physics.php?topic=Topic11">Topic 11</a></li>
                         <li><a href="physics.php?topic=Topic12">Topic 12</a></li>
         </div>
-    </div>    
+    </div>
+
 </body>
+
+
 <script>
     try{
     var answer = document.getElementById("answer");
     var letter_answer = answer.getAttribute("value");
     }
     catch(TypeError){
-        location.reload("physics.php?topic=Core");
+        location.href="physics.php?topic=Core";
     }
-
+    
+    function toggleshow(element){
+        element.classList.toggle("show")
+    }
     function clickHandler(letter) {
     if (letter == letter_answer){
         console.log("Correct answer");
-        alert("Right asnwer you dummy.");
-        setTimeout(1000);
-        location.reload();
+        popupcorrect();
+        setTimeout(function() {location.reload();},1000);
     }
     else{
-        alert("Wrong asnwer you dummy.")
+        popupwrong();
+        setTimeout(2000);
     }
+    }
+
+    // When the user clicks on <div>, open the popup
+    function popupcorrect() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+    }
+    function popupwrong() {
+    var popup = document.getElementById("WmyPopup");
+    popup.classList.toggle("show");
+    setTimeout(function(){toggleshow(popup);},2000);
     }
 </script>
+
 </html>
