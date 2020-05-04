@@ -16,10 +16,11 @@
         <div class="grid-item">
         <!-- Get Random Question -->
         <?php 
-        $dir  = 'physics';
+        $dir  = 'physics/'.$_GET["topic"];
         $questions = scandir($dir);
+        $len = count ($questions);
         #print_r($questions);
-        $question = ("physics/Core".$questions[random_int(0,877)]);
+        $question = ("physics/".$_GET["topic"]."/".$questions[random_int(2,$len)]);
         include $question?></div>
 
         <div class="grid-item">Click the corrent answer:
@@ -34,13 +35,19 @@
     </div>    
 </body>
 <script>
+    try{
     var answer = document.getElementById("answer");
     var letter_answer = answer.getAttribute("value");
+    }
+    catch(TypeError){
+        location.reload();
+    }
+
     function clickHandler(letter) {
     if (letter == letter_answer){
         console.log("Correct answer");
-        alert("Right asnwer you dummy.")
-        setTimeout(1000)
+        alert("Right asnwer you dummy.");
+        setTimeout(1000);
         location.reload();
     }
     else{

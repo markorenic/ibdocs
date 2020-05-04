@@ -8,17 +8,42 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
     </head>
     <body>
+        <div class="header">
         <header>
             <a class="logo" href="https://www.ibdocuments.com/"><img src="../resources/logo.png" alt="logo"></a>
-            <nav>
+            <nav role="navigation">
                 <ul class="nav__links">
                     <li><a href="index.php">Homepage</a></li>
-                    <li><a href="physics.php">Physics</a></li>
+                    <li><a href="physics.php?topic=Core">Physics</a>
+                        <ul class="dropdown">
+                            <li><a href="physics.php?topic=Topic1">Topic 1</a></li>
+                            <li><a href="physics.php?topic=Topic2">Topic 2</a></li>
+                            <li><a href="physics.php?topic=Topic3">Topic 3</a></li>
+                            <li><a href="physics.php?topic=Topic4">Topic 4</a></li>
+                            <li><a href="physics.php?topic=Topic5">Topic 5</a></li>
+                            <li><a href="physics.php?topic=Topic6">Topic 6</a></li>
+                            <li><a href="physics.php?topic=Topic7">Topic 7</a></li>
+                            <li><a href="physics.php?topic=Topic8">Topic 8</a></li>
+                            <li><a href="physics.php?topic=Topic9">Topic 9</a></li>
+                            <li><a href="physics.php?topic=Topic10">Topic 10</a></li>
+                            <li><a href="physics.php?topic=Topic11">Topic 11</a></li>
+                            <li><a href="physics.php?topic=Topic12">Topic 12</a></li>
+                          </ul>
+                    </li>
                     <li><a href="https://github.com/markorenic/ibdocs/">About</a></li>
                 </ul>
             </nav>
             <a class="cta" href="#">Login</a>
             <p onclick="openNav()" class="menu cta">Menu</p>
         </header>
+        <div id="mobile__menu" class="overlay">
+            <a class="close" onclick="closeNav()">&times;</a>
+            <div class="overlay__content">
+                <a href="index.php">Homepage</a>
+                <a href="physics.php">Physics</a>
+                <a href="https://github.com/markorenic/ibdocs/">About</a>
+            </div>
+        </div>
+        <script type="text/javascript" src="mobile.js"/></script>
+        </div>
     </body>
-</html>
