@@ -32,7 +32,7 @@
                 <li><button onclick="clickHandler('C')" class="C">C</button></li>
                 <li><button onclick="clickHandler('D')" class="D">D</button></li>
             </ul>
-            <a href="#">Report Question</a><br><br>
+            <a href="report.php?">Report Question</a><br><br>
         </div>
         <div class="grid-item">Comments:</div>
         <div class="grid-item mobile mdd"><a>Topic: <?php print_r($dir);?><br>
@@ -59,7 +59,7 @@
     var letter_answer = answer.getAttribute("value");
     }
     catch(TypeError){
-        location.reload();
+        location.reload("physics.php?topic=Core");
     }
 
     function clickHandler(letter) {
