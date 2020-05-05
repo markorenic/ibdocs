@@ -1,0 +1,273 @@
+[04-May-2020 00:49:05 CST6CDT] PHP Fatal error:  Uncaught Error: Minimum value must be less than or equal to the maximum value in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php:23
+Stack trace:
+#0 /home/customer/www/ibdocs.renic.xyz/public_html/physics.php(23): random_int(2, 1)
+#1 {main}
+  thrown in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php on line 23
+[04-May-2020 00:49:10 CST6CDT] PHP Fatal error:  Uncaught Error: Minimum value must be less than or equal to the maximum value in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php:23
+Stack trace:
+#0 /home/customer/www/ibdocs.renic.xyz/public_html/physics.php(23): random_int(2, 1)
+#1 {main}
+  thrown in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php on line 23
+[04-May-2020 08:38:15 CST6CDT] PHP Fatal error:  Uncaught Error: Minimum value must be less than or equal to the maximum value in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php:23
+Stack trace:
+#0 /home/customer/www/ibdocs.renic.xyz/public_html/physics.php(23): random_int(2, 1)
+#1 {main}
+  thrown in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php on line 23
+[04-May-2020 08:38:20 CST6CDT] PHP Fatal error:  Uncaught Error: Minimum value must be less than or equal to the maximum value in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php:23
+Stack trace:
+#0 /home/customer/www/ibdocs.renic.xyz/public_html/physics.php(23): random_int(2, 1)
+#1 {main}
+  thrown in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php on line 23
+[04-May-2020 08:38:24 CST6CDT] PHP Fatal error:  Uncaught Error: Minimum value must be less than or equal to the maximum value in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php:23
+Stack trace:
+#0 /home/customer/www/ibdocs.renic.xyz/public_html/physics.php(23): random_int(2, 1)
+#1 {main}
+  thrown in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php on line 23
+[04-May-2020 08:38:27 CST6CDT] PHP Fatal error:  Uncaught Error: Minimum value must be less than or equal to the maximum value in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php:23
+Stack trace:
+#0 /home/customer/www/ibdocs.renic.xyz/public_html/physics.php(23): random_int(2, 1)
+#1 {main}
+  thrown in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php on line 23
+[04-May-2020 08:41:06 CST6CDT] PHP Fatal error:  Uncaught Error: Minimum value must be less than or equal to the maximum value in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php:23
+Stack trace:
+#0 /home/customer/www/ibdocs.renic.xyz/public_html/physics.php(23): random_int(2, 1)
+#1 {main}
+  thrown in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php on line 23
+[04-May-2020 11:40:10 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function select_db() on null in /home/customer/www/ibdocs.renic.xyz/public_html/login.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 7
+[04-May-2020 11:41:03 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function select_db() on null in /home/customer/www/ibdocs.renic.xyz/public_html/login.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 7
+[04-May-2020 11:41:04 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function select_db() on null in /home/customer/www/ibdocs.renic.xyz/public_html/login.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 7
+[04-May-2020 14:41:56 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function getLogin() in /home/customer/www/ibdocs.renic.xyz/public_html/login.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 20
+[04-May-2020 14:52:03 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function getLogin() in /home/customer/www/ibdocs.renic.xyz/public_html/login.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 20
+[04-May-2020 18:13:36 CST6CDT] PHP Notice:  session_start(): A session had already been started - ignoring in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 3
+[04-May-2020 18:13:46 CST6CDT] PHP Notice:  session_start(): A session had already been started - ignoring in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 3
+[04-May-2020 18:53:50 CST6CDT] PHP Parse error:  syntax error, unexpected '$question' (T_VARIABLE) in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php on line 25
+[04-May-2020 18:54:27 CST6CDT] PHP Parse error:  syntax error, unexpected '$question' (T_VARIABLE) in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php on line 25
+[04-May-2020 18:59:03 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 3
+[04-May-2020 18:59:03 CST6CDT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/ibdocs.renic.xyz/public_html/physics.php:1) in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 5
+[04-May-2020 19:00:45 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 3
+[04-May-2020 19:00:45 CST6CDT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/ibdocs.renic.xyz/public_html/physics.php:1) in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 5
+[04-May-2020 19:00:45 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 3
+[04-May-2020 19:00:45 CST6CDT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/ibdocs.renic.xyz/public_html/physics.php:1) in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 5
+[04-May-2020 19:00:47 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 3
+[04-May-2020 19:00:47 CST6CDT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/ibdocs.renic.xyz/public_html/index.php:1) in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 5
+[04-May-2020 19:03:29 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 3
+[04-May-2020 19:03:36 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 3
+[04-May-2020 19:03:37 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 3
+[04-May-2020 19:03:40 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 3
+[04-May-2020 19:03:51 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 3
+[04-May-2020 19:03:58 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 3
+[04-May-2020 19:03:59 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 3
+[04-May-2020 19:03:59 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 3
+[04-May-2020 19:04:00 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 3
+[04-May-2020 19:04:01 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 3
+[04-May-2020 19:04:01 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 3
+[04-May-2020 19:04:02 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 3
+[04-May-2020 19:04:03 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 3
+[04-May-2020 19:04:04 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 3
+[04-May-2020 19:04:05 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 3
+[04-May-2020 19:04:05 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 3
+[04-May-2020 19:04:06 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 3
+[04-May-2020 19:04:07 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 3
+[04-May-2020 19:04:08 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 3
+[04-May-2020 19:04:08 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 3
+[04-May-2020 19:04:09 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 3
+[04-May-2020 19:04:09 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:05:17 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:06:13 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:06:14 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:06:43 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:06:45 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:06:47 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:06:49 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:06:49 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:07:03 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:07:04 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:07:05 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:07:05 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:07:06 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:07:13 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:07:14 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:07:21 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:08:16 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:08:18 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:08:19 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:08:19 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:08:20 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:08:37 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:08:38 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:08:39 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:08:39 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:08:39 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:08:39 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:08:40 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:08:43 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:08:44 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:08:47 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:08:48 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:08:49 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:08:58 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:09:01 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:09:52 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:09:56 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:09:57 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:10:04 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:10:55 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:11:32 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:11:34 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:11:37 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:11:38 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:11:44 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:11:52 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:11:54 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:12:39 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:12:56 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:12:58 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:13:00 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:13:04 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:13:06 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:13:10 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:13:12 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:13:13 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:13:13 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:13:14 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:13:30 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:13:31 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:13:33 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:13:33 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:15:05 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 11
+[04-May-2020 19:15:52 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 22
+[04-May-2020 19:15:54 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 22
+[04-May-2020 19:15:55 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 22
+[04-May-2020 19:16:51 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 15
+[04-May-2020 19:16:52 CST6CDT] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/customer/www/ibdocs.renic.xyz/public_html/login.php on line 15
+[04-May-2020 19:20:22 CST6CDT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/ibdocs.renic.xyz/public_html/index.php:5) in /home/customer/www/ibdocs.renic.xyz/public_html/misc/header.php on line 4
+[04-May-2020 19:42:16 CST6CDT] PHP Notice:  Undefined index: topic in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php on line 20
+[04-May-2020 19:42:16 CST6CDT] PHP Warning:  include(/home/customer/www/ibdocs.renic.xyz/public_html/physics/Topic8): failed to open stream: No such file or directory in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php on line 27
+[04-May-2020 19:42:16 CST6CDT] PHP Warning:  include(/home/customer/www/ibdocs.renic.xyz/public_html/physics/Topic8): failed to open stream: No such device in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php on line 27
+[04-May-2020 19:42:16 CST6CDT] PHP Warning:  include(): Failed opening 'physics//Topic8' for inclusion (include_path='.:/usr/local/php73/pear') in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php on line 27
+[04-May-2020 19:48:02 CST6CDT] PHP Notice:  Undefined index: uid in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 14
+[04-May-2020 19:48:02 CST6CDT] PHP Notice:  Undefined index: pwd in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 15
+[04-May-2020 19:49:41 CST6CDT] PHP Notice:  Undefined index: uid in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 14
+[04-May-2020 19:49:41 CST6CDT] PHP Notice:  Undefined index: pwd in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 15
+[04-May-2020 19:49:54 CST6CDT] PHP Notice:  Undefined index: uid in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 14
+[04-May-2020 19:49:54 CST6CDT] PHP Notice:  Undefined index: pwd in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 15
+[04-May-2020 19:50:15 CST6CDT] PHP Notice:  Undefined index: uid in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 14
+[04-May-2020 19:50:15 CST6CDT] PHP Notice:  Undefined index: pwd in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 15
+[04-May-2020 19:50:29 CST6CDT] PHP Notice:  Undefined index: uid in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 14
+[04-May-2020 19:50:29 CST6CDT] PHP Notice:  Undefined index: pwd in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 15
+[04-May-2020 19:50:35 CST6CDT] PHP Notice:  Undefined index: uid in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 14
+[04-May-2020 19:50:35 CST6CDT] PHP Notice:  Undefined index: pwd in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 15
+[04-May-2020 19:50:48 CST6CDT] PHP Notice:  Undefined index: uid in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 14
+[04-May-2020 19:50:48 CST6CDT] PHP Notice:  Undefined index: pwd in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 15
+[04-May-2020 19:50:57 CST6CDT] PHP Notice:  Undefined index: uid in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 14
+[04-May-2020 19:50:57 CST6CDT] PHP Notice:  Undefined index: pwd in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 15
+[04-May-2020 19:51:19 CST6CDT] PHP Notice:  Undefined index: uid in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 14
+[04-May-2020 19:51:19 CST6CDT] PHP Notice:  Undefined index: pwd in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 15
+[04-May-2020 20:04:03 CST6CDT] PHP Notice:  Undefined index: topic in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php on line 20
+[04-May-2020 20:04:03 CST6CDT] PHP Warning:  include(/home/customer/www/ibdocs.renic.xyz/public_html/physics/Topic1): failed to open stream: No such file or directory in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php on line 27
+[04-May-2020 20:04:03 CST6CDT] PHP Warning:  include(/home/customer/www/ibdocs.renic.xyz/public_html/physics/Topic1): failed to open stream: No such device in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php on line 27
+[04-May-2020 20:04:03 CST6CDT] PHP Warning:  include(): Failed opening 'physics//Topic1' for inclusion (include_path='.:/usr/local/php73/pear') in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php on line 27
+[04-May-2020 20:06:57 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function userLogout() in /home/customer/www/ibdocs.renic.xyz/public_html/logout.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/ibdocs.renic.xyz/public_html/logout.php on line 1
+[04-May-2020 20:11:00 CST6CDT] PHP Parse error:  syntax error, unexpected ')' in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 45
+[04-May-2020 20:11:19 CST6CDT] PHP Parse error:  syntax error, unexpected ')' in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 45
+[04-May-2020 20:12:07 CST6CDT] PHP Notice:  Undefined index: username in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 40
+[04-May-2020 20:12:07 CST6CDT] PHP Notice:  Undefined index: password in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 41
+[04-May-2020 20:12:07 CST6CDT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/ibdocs.renic.xyz/public_html/functions.php:40) in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 54
+[04-May-2020 20:12:10 CST6CDT] PHP Warning:  Use of undefined constant connect - assumed 'connect' (this will throw an Error in a future version of PHP) in /home/customer/www/ibdocs.renic.xyz/public_html/logout.php on line 3
+[04-May-2020 20:14:20 CST6CDT] PHP Warning:  Use of undefined constant connect - assumed 'connect' (this will throw an Error in a future version of PHP) in /home/customer/www/ibdocs.renic.xyz/public_html/logout.php on line 3
+[04-May-2020 20:14:21 CST6CDT] PHP Notice:  Undefined index: username in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 40
+[04-May-2020 20:14:21 CST6CDT] PHP Notice:  Undefined index: password in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 41
+[04-May-2020 20:14:21 CST6CDT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/ibdocs.renic.xyz/public_html/functions.php:40) in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 51
+[04-May-2020 20:14:31 CST6CDT] PHP Notice:  Undefined index: username in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 40
+[04-May-2020 20:14:31 CST6CDT] PHP Notice:  Undefined index: password in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 41
+[04-May-2020 20:18:44 CST6CDT] PHP Notice:  Undefined index: topic in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php on line 20
+[04-May-2020 20:18:44 CST6CDT] PHP Warning:  include(/home/customer/www/ibdocs.renic.xyz/public_html/physics/Topic12): failed to open stream: No such file or directory in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php on line 27
+[04-May-2020 20:18:44 CST6CDT] PHP Warning:  include(/home/customer/www/ibdocs.renic.xyz/public_html/physics/Topic12): failed to open stream: No such device in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php on line 27
+[04-May-2020 20:18:44 CST6CDT] PHP Warning:  include(): Failed opening 'physics//Topic12' for inclusion (include_path='.:/usr/local/php73/pear') in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php on line 27
+[04-May-2020 20:18:55 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/ibdocs.renic.xyz/public_html/logout.php on line 6
+[04-May-2020 20:19:19 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/ibdocs.renic.xyz/public_html/logout.php on line 6
+[04-May-2020 20:19:25 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/ibdocs.renic.xyz/public_html/logout.php on line 6
+[04-May-2020 20:19:30 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/ibdocs.renic.xyz/public_html/logout.php on line 6
+[04-May-2020 20:19:36 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/ibdocs.renic.xyz/public_html/logout.php on line 6
+[04-May-2020 20:19:42 CST6CDT] PHP Notice:  Undefined offset: 111 in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php on line 24
+[04-May-2020 20:19:42 CST6CDT] PHP Warning:  include(/home/customer/www/ibdocs.renic.xyz/public_html/physics/Topic8): failed to open stream: No such file or directory in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php on line 27
+[04-May-2020 20:19:42 CST6CDT] PHP Warning:  include(/home/customer/www/ibdocs.renic.xyz/public_html/physics/Topic8): failed to open stream: No such device in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php on line 27
+[04-May-2020 20:19:42 CST6CDT] PHP Warning:  include(): Failed opening 'physics/Topic8/' for inclusion (include_path='.:/usr/local/php73/pear') in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php on line 27
+[04-May-2020 20:19:43 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/ibdocs.renic.xyz/public_html/logout.php on line 6
+[04-May-2020 20:19:44 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/ibdocs.renic.xyz/public_html/logout.php on line 6
+[04-May-2020 20:19:46 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/ibdocs.renic.xyz/public_html/logout.php on line 6
+[04-May-2020 20:20:01 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/ibdocs.renic.xyz/public_html/logout.php on line 4
+[04-May-2020 20:22:38 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/ibdocs.renic.xyz/public_html/logout.php on line 6
+[04-May-2020 20:23:34 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/ibdocs.renic.xyz/public_html/logout.php on line 6
+[04-May-2020 20:25:24 CST6CDT] PHP Warning:  Use of undefined constant session_start - assumed 'session_start' (this will throw an Error in a future version of PHP) in /home/customer/www/ibdocs.renic.xyz/public_html/logout.php on line 3
+[04-May-2020 21:09:46 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function Report() in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php on line 42
+[04-May-2020 21:14:40 CST6CDT] PHP Notice:  Undefined variable: question_name in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 60
+[04-May-2020 21:14:40 CST6CDT] PHP Notice:  Object of class mysqli_result could not be converted to number in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 63
+[04-May-2020 21:18:15 CST6CDT] PHP Parse error:  syntax error, unexpected '$question' (T_VARIABLE) in /home/customer/www/ibdocs.renic.xyz/public_html/physics.php on line 31
+[04-May-2020 21:18:51 CST6CDT] PHP Notice:  Object of class mysqli_result could not be converted to number in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 63
+[04-May-2020 21:18:55 CST6CDT] PHP Notice:  Object of class mysqli_result could not be converted to number in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 63
+[04-May-2020 21:19:54 CST6CDT] PHP Notice:  Object of class mysqli_result could not be converted to number in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 63
+[04-May-2020 21:19:56 CST6CDT] PHP Notice:  Object of class mysqli_result could not be converted to number in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 63
+[04-May-2020 21:20:27 CST6CDT] PHP Notice:  Object of class mysqli_result could not be converted to number in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 63
+[04-May-2020 21:30:24 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php:60
+Stack trace:
+#0 /home/customer/www/ibdocs.renic.xyz/public_html/physics.php(44): Report(Object(mysqli))
+#1 {main}
+  thrown in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 60
+[04-May-2020 21:30:47 CST6CDT] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 60
+[04-May-2020 21:30:47 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php:62
+Stack trace:
+#0 /home/customer/www/ibdocs.renic.xyz/public_html/physics.php(44): Report(Object(mysqli))
+#1 {main}
+  thrown in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 62
+[04-May-2020 21:33:32 CST6CDT] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 61
+[04-May-2020 21:33:32 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php:63
+Stack trace:
+#0 /home/customer/www/ibdocs.renic.xyz/public_html/physics.php(44): Report(Object(mysqli))
+#1 {main}
+  thrown in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 63
+[04-May-2020 21:33:38 CST6CDT] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 61
+[04-May-2020 21:33:38 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php:63
+Stack trace:
+#0 /home/customer/www/ibdocs.renic.xyz/public_html/physics.php(44): Report(Object(mysqli))
+#1 {main}
+  thrown in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 63
+[04-May-2020 21:33:46 CST6CDT] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 61
+[04-May-2020 21:33:46 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php:63
+Stack trace:
+#0 /home/customer/www/ibdocs.renic.xyz/public_html/physics.php(44): Report(Object(mysqli))
+#1 {main}
+  thrown in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 63
+[04-May-2020 21:34:25 CST6CDT] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 61
+[04-May-2020 21:34:25 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php:63
+Stack trace:
+#0 /home/customer/www/ibdocs.renic.xyz/public_html/physics.php(44): Report(Object(mysqli))
+#1 {main}
+  thrown in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 63
+[04-May-2020 21:34:31 CST6CDT] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 61
+[04-May-2020 21:34:31 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php:63
+Stack trace:
+#0 /home/customer/www/ibdocs.renic.xyz/public_html/physics.php(44): Report(Object(mysqli))
+#1 {main}
+  thrown in /home/customer/www/ibdocs.renic.xyz/public_html/functions.php on line 63

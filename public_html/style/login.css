@@ -1,0 +1,28 @@
+form{
+    position: absolute;
+    right: 40%;
+    top: 40%;
+    background-color: #24252a;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+}
+form input{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+    background-color: #24252a;
+  }
+
+.loginbackground{
+    background-color: #24252a;
+}
+
+.bt{
+    position: inherit;
+}
+.btl{
+    position: inherit;
+}
