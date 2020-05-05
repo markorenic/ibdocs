@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="style/subject.css">
     <title>Physics</title>
 </head>
-<?php include "misc/header.html";?>
+<?php include "misc/header.php";?>
 
 <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -21,7 +21,9 @@
         $questions = scandir($dir);
         $len = count ($questions);
         #print_r($questions);
-        $question = ("physics/".$_GET["topic"]."/".$questions[random_int(2,$len)]);
+        $question_name = $questions[random_int(2,$len)];
+        #print_r($question_name);
+        $question = ("physics/".$_GET["topic"]."/".$question_name);
         include $question?>
         </div>
 
