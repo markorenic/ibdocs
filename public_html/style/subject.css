@@ -1,118 +1,257 @@
-.grid-container {
-    display: grid;
-    grid-template-columns: minmax(0%,60%) auto;
-    grid-template-rows: 100% 50%;
-  }
-
-.question img{
-  max-height: 90%;
-  max-width: 90%;
-
-}
-.mobile{
-  display: none;
-}
-
-@media only screen and (max-device-width: 480px) {
-  .grid-container {
-    display: grid;
-    grid-template-columns: minmax(0%,100%);
-    grid-template-rows: auto auto;
-  }
-  .mobile{
-    display: block !important;
-  }
-  .mdd{
-    background-color: #24252a;
-    background: #24252a;
-    color: #24252a;
-    min-width: 5rem;
-    position: relative;
-    transition: all 0.5s ease;
-    margin-top: 1rem;
-    left: 0;
-  }
-  .mdd a{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    color: #edf0f1;
-    text-decoration: none;
-  }
-}
-
-/* Popup container */
-.popup {
-  color: aqua;
-}
-
-/* The actual popup (appears on top) */
-.popup .popuptext {
-  visibility: hidden;
-  width: 160px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  left: 50%;
-  top: 50%;
-  /*z-index: 1;*/
-  margin-left: -80px;
-}
-
-/* Popup arrow 
-.popup .popuptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-}*/
-
-/* Toggle this class when clicking on the popup container (hide and show the popup) */
-.popup .show {
-  position: relative;
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s
-}
-
-
-/* The actual popup (appears on top) */
-.popup .Wpopuptext {
-  visibility: hidden;
-  width: 160px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  left: 50%;
-  top: 50%;
-  /*z-index: 1;*/
-  margin-left: -80px;
-}
-
-/* Toggle this class when clicking on the popup container (hide and show the popup) */
-.popup .show {
-  position: relative;
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s
-}
-
-
-
-/* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
-
-@keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity:1 ;}
+.body{
+  background-color: #e5b8ff;
+}
+
+.grid-container {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: minmax(0%,60%) auto;
+    grid-template-rows: 100% 50%;
+
+  }
+
+
+
+.question img{
+
+  max-height: 90%;
+
+  max-width: 90%;
+
+
+
+}
+
+.mobile{
+
+  display: none;
+
+}
+
+
+
+@media only screen and (max-device-width: 480px) {
+
+  .grid-container {
+
+    display: grid;
+
+    grid-template-columns: minmax(0%,100%);
+
+    grid-template-rows: auto auto;
+
+  }
+
+  .mobile{
+
+    display: block !important;
+
+  }
+
+  .mdd{
+    border-width: 5px;
+    border-style: solid;
+    border-color: #24252a;
+    color: #24252a;
+    padding: -5px;
+    min-width: 5rem;
+
+    position: relative;
+
+    transition: all 0.5s ease;
+
+    margin-top: 1rem;
+
+    left: 0;
+
+  }
+
+  .mdd a{
+
+    font-family: "Montserrat", sans-serif;
+
+    font-weight: 500;
+
+    text-decoration: none;
+
+  }
+
+}
+
+form{
+  padding: 5px;
+}
+
+/* Popup container */
+
+.popup {
+
+  color: aqua;
+
+}
+
+
+
+/* The actual popup (appears on top) */
+
+.popup .popuptext {
+
+  visibility: hidden;
+
+  width: 160px;
+
+  background-color: #555;
+
+  color: #fff;
+
+  text-align: center;
+
+  border-radius: 6px;
+
+  padding: 8px 0;
+
+  left: 50%;
+
+  top: 50%;
+
+  /*z-index: 1;*/
+
+  margin-left: -80px;
+
+}
+
+
+
+/* Popup arrow 
+
+.popup .popuptext::after {
+
+  content: "";
+
+  position: absolute;
+
+  top: 100%;
+
+  left: 50%;
+
+  margin-left: -5px;
+
+  border-width: 5px;
+
+  border-style: solid;
+
+  border-color: #555 transparent transparent transparent;
+
+}*/
+
+
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+
+.popup .show {
+
+  position: relative;
+
+  visibility: visible;
+
+  -webkit-animation: fadeIn 1s;
+
+  animation: fadeIn 1s
+
+}
+
+
+
+
+
+/* The actual popup (appears on top) */
+
+.popup .Wpopuptext {
+
+  visibility: hidden;
+
+  width: 160px;
+
+  background-color: #555;
+
+  color: #fff;
+
+  text-align: center;
+
+  border-radius: 6px;
+
+  padding: 8px 0;
+
+  left: 50%;
+
+  top: 50%;
+
+  /*z-index: 1;*/
+
+  margin-left: -80px;
+
+}
+
+
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+
+.popup .show {
+
+  position: relative;
+
+  visibility: visible;
+
+  -webkit-animation: fadeIn 1s;
+
+  animation: fadeIn 1s
+
+}
+
+.comments-container{
+  border: 1px;
+  border-color: black;
+  display: none;
+}
+
+.comment-box{
+  background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+  padding-left: 50px
+  ;
+}
+textarea {
+  width: 80%;
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+.comments{
+  border: 1px;
+  border-color: black;
+  display: none;
+}
+
+
+/* Add animation (fade in the popup) */
+
+@-webkit-keyframes fadeIn {
+
+  from {opacity: 0;}
+
+  to {opacity: 1;}
+
+}
+
+
+
+@keyframes fadeIn {
+
+  from {opacity: 0;}
+
+  to {opacity:1 ;}
+
 }
