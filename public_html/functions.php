@@ -57,18 +57,35 @@ function signup($connect) {
 }
 function Report($connect){
     $qn= $_SESSION["qn"];
-    if (isset($_POST['ReportSubmit'])) {
-    $result = mysqli_query("SELECT 'rn' FROM 'report' WHERE 'qn' = '$qn'");
-    if (!$result) {
-    echo 'Could not run query: ' . mysql_error();
-    exit;
-}
-$row = mysql_fetch_row($result);
-
-echo $row[0]; // 42
-
-
-      
-
+	$sql = "SELECT rn FROM report WHERE qn='$qn'";
+	$result = $connect->query($sql);
+    if (mysqli_num_rows($result) > 0){
+       $sql = "UPDATE report SET rn = rn + 1 WHERE qn ='$qn'";
+      	$result = $connect->query($sql);
+    } else{
+        
+		$sql = "INSERT INTO report (qn,rn) VALUES ('$qn', 1)";
+	    $result = $connect->query($sql);
     }
+}
+function comment($connect){
+    if (isset($_POST['commentbutton'])) {
+        $section = $_POST['section'];
+        $date = $_POST['date'];
+        $uid = $_SESSION['uid'];
+        $text = $_POST['text'];
+        $sql = "INSERT INTO comments (uid, date, text, section) VALUES ('$uid', '$date', '$text','$section')";
+		$result = $connect->query($sql);
+}}
+function displaycomments($connect){
+    $section = $_SESSION["qn"];
+    $sql = "SELECT * FROM comments WHERE section='$section' ORDER BY date DESC";
+	$result = $connect->query($sql);
+	while ($row = $result->fetch_assoc()) {
+	echo "<div class='comment box'>";
+		echo $row['uid']."<br>";
+		echo $row['date']."<br>";
+		echo $row['text'];
+	echo "</div>";
+	}
 }

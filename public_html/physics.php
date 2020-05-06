@@ -47,7 +47,18 @@ include "functions.php";
 ?>
             
         </div>
-        <div class="grid-item">Comments:</div>
+        <div class="grid-item">
+        <?php
+        echo "<form method='POST' action'".Comment($connect)."'>
+          <input type='hidden' name='section' value= '".$_SESSION["qn"]."'>
+          <input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
+          <textarea name='text'></textarea><br><br>
+          <button type='submit' name='commentbutton'>Comment</button>
+        </form>";
+
+        displaycomments($connect);
+        ?>
+        </div>
         <div class="grid-item mobile mdd"><a>Topic: <?php print_r($dir);?><br>
         Change Topic:</a>
                         <li><a href="physics.php?topic=Core">All</a></li>
