@@ -4,12 +4,12 @@ import pickle
 import json
 import sys
 import os
+import logging
+import threading
+import time
 from bs4 import BeautifulSoup
 
-sys.setrecursionlimit(5000)
-qBank = []
-
-url = 'https://www.ibdocuments.com/IB%20QUESTIONBANKS/4.%20Fourth%20Edition/questionbank.ibo.org/en/teachers/00000/questionbanks/46-dp-physics/syllabus_sections/2599.html'
+sys.setrecursionlimit(50000)
 
 #parse url
 def parsePage(url):
@@ -67,25 +67,6 @@ def newQuestion(url):
     #print('Found new Question!: ', str(question.text))
     qBank.append(Question(ref, question, answer))
 
-#get the thingy
-linkBank = getquestionspertopic(url)
-for i in range(0, len(linkBank)):
-    newQuestion(linkBank[i])
-
-pickle_out = open('dict.pickle','wb')
-pickle.dump(qBank, pickle_out)
-pickle_out.close()
-
-#load questions
-# pickle_in = open('dict.pickle','rb')
-# qBank = pickle.load(pickle_in)
-
-#works outputs the HTML OF THE QUESTION
-# question_html = str(0)
-#for i in range(0,len(qBank[0].question.contents)):
-#    question_html = question_html + (str(qBank[0].question.contents[i]))
-
-
 def exportQuestions(qBank):
     counter = 0
     for counter in range(0, len(qBank)):
@@ -106,4 +87,31 @@ def exportQuestions(qBank):
             print(qBank[counter].question.contents[i])
         
         file_.close()
-exportQuestions(qBank)
+
+
+# for i in range(2784,2796):
+#     file_ = open((str(i)+".txt"), 'w')
+#     file_.close()
+#     print("NEW SECTION######$#####$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+qBank = []
+url = "https://www.ibdocuments.com/IB%20QUESTIONBANKS/4.%20Fourth%20Edition/questionbank.ibo.org/en/teachers/00000/questionbanks/45-dp-chemistry/syllabus_sections/"+str(2784)+".html"
+
+#get the thingy
+linkBank = getquestionspertopic(url)
+for i in range(0, len(linkBank)):
+    newQuestion(linkBank[i])
+
+    exportQuestions(qBank)
+    # pickle_out = open('dict.pickle','wb')
+    # pickle.dump(qBank, pickle_out)
+    # pickle_out.close()
+
+    #load questions
+    # pickle_in = open('dict.pickle','rb')
+    # qBank = pickle.load(pickle_in)
+
+    #works outputs the HTML OF THE QUESTION
+    # question_html = str(0)
+    #for i in range(0,len(qBank[0].question.contents)):
+    #    question_html = question_html + (str(qBank[0].question.contents[i]))
+

@@ -78,6 +78,8 @@ include "functions.php";
 
                 <li class="popup"><button onclick="clickHandler('D')" class="D">D</button><span class="popuptext" id="myPopup">Correct!</span><span class="Wpopuptext" id="WmyPopup">Wrong, try again!</span></li>
 
+                <li class="popup"><button onClick="window.location.reload();" class="D">Skip</button><span class="popuptext" id="myPopup">Correct!</span><span class="Wpopuptext" id="WmyPopup">Wrong, try again!</span></li>
+
             </ul>
 
 
