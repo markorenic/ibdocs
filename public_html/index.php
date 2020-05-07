@@ -31,7 +31,7 @@ session_start();
 
     <div class="grid-container">
 
-        <div class="grid">Homepage is Work in progress...<br> To practice questions go to Physics-> Topic 
+        <div class="grid"> 
         <div class="row services">
                 
                 <a href="questionbank.ibo.org/en/teachers/00000/questionbanks/43-dp-biology/syllabus_sections.html" target="_blank">
